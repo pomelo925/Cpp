@@ -7,13 +7,13 @@ using namespace std;
 int main(){
     int a = 3;
 
-    //傳值
+    //傳值 pass by value
     int b = a;
 
-    //傳指標
+    //傳指標 pass by pointer/address
     int *c = &a;
 
-    //傳參考
+    //傳參考 pass by reference 
     int &d = a;
     /* 解釋:
         d 直接"參考"了記憶體中的參數值，函式傳遞的時候也是直接傳遞參數值；
